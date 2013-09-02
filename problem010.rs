@@ -26,7 +26,6 @@ fn main() {
 	let mut res = 0;
 	for i in range(2, 2000000) {
 		if isPrime(i) {
-			printfln!(i);
 			res += i;
 		}
 	}
