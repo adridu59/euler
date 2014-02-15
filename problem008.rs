@@ -14,7 +14,7 @@ fn greatestProduct(mut num: &str) -> int {
 	 */
 	for _ in range(0, num.len()-4) {
 		ret = max(ret, num.iter().take(5).map(|x| (x - '0') as int).product());
-		printfln!(num.iter().take(5).to_owned_vec());
+		println!(num.iter().take(5).to_owned_vec());
 		num = num.slice_from(1);
 	}
 	return ret;
@@ -42,5 +42,5 @@ fn main() {
 		"84580156166097919133875499200524063689912560717606" +
 		"05886116467109405077541002256983155200055935729725" +
 		"71636269561882670428252483600823257530420752963450";
-	printfln!(greatestProduct(n));
+	println!(greatestProduct(n));
 }

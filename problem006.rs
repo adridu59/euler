@@ -15,5 +15,5 @@ fn sumSquareDiff() -> int {
 }
 
 fn main() {
-	printfln!(sumSquareDiff());
+	println!(sumSquareDiff());
 }

@@ -7,4 +7,4 @@
 
 # Current language trunk
 
-mozilla/rust:0.8-pre. (Aug 24)
+mozilla/rust:0.10-pre. (Feb 01)

@@ -18,5 +18,5 @@ fn pythagoreanTriplet(targetSum: int) -> int {
 }
 
 fn main() {
-	printfln!(pythagoreanTriplet(1000));
+	println!(pythagoreanTriplet(1000));
 }

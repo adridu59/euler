@@ -10,5 +10,5 @@ fn main() {
 			s = s + n;
 		}
 	}
-	printfln!(s);
+	println!(s);
 }

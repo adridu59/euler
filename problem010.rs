@@ -29,5 +29,5 @@ fn main() {
 			res += i;
 		}
 	}
-	printfln!(res);
+	println!(res);
 }

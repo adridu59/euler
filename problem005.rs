@@ -20,5 +20,5 @@ fn main() {
 			break;
 		}
 	}
-	printfln!(n);
+	println!(n);
 }

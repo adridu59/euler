@@ -37,5 +37,5 @@ fn returnPrime(rank: int) -> int {
 }
 
 fn main() {
-	printfln!(returnPrime(10001));
+	println!(returnPrime(10001));
 }

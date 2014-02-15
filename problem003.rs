@@ -42,5 +42,5 @@ fn main() {
 			break;
 		}
 	}
-	printfln!(g);
+	println!(g);
 }

@@ -22,5 +22,5 @@ fn main() {
 		}
 		i += 1;	
 	}
-	printfln!(n);
+	println!(n);
 }
